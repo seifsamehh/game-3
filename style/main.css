@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-color: #1a5581;
+	height: 100vh;
+}
+
+body {
+	font-family: 'Kalam', cursive;
+	color: #fff;
+}
+
+.heading {
+	text-align: center;
+	margin-top: 50px;
+}
+
+table {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 65px;
+	border-collapse: collapse;
+	position: absolute;
+	margin-top: 50px;
+	left: 50%;
+	margin-left: -152.5px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cell {
+	height: 100px;
+	width: 100px;
+}
+
+.midcol {
+	border-left: 2.5px solid #fff;
+	border-right: 2.5px solid #fff;
+}
+
+.midrow {
+	border-top: 2.5px solid #fff;
+	border-bottom: 2.5px solid #fff;
+}
+
+
+/* MODAL */ 
+.removePopup {
+	display: none;
+}
+
+.modal {
+	border-radius: 8px;
+	text-align: center;
+	height: 160px;
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 120px;
+	font-size: 2rem;
+	box-shadow:0 5px 10px rgba(0,0,0,0.5);
+	position: relative;
+	z-index: 10;
+}
+
+p.resultText {
+	line-height: 150%;
+	position: absolute;
+	top: 30px;
+	left: 34%;
+}
+
+.replay-btn {
+	height: 30px;
+	width: 80px;
+	border-radius: 12px;
+	outline: none;
+	background-color: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	transition: all .15s ease-in-out;
+	position: absolute;
+	top: 80px;
+	left: 30%;
+}
+
+.replay-btn:hover {
+	background-color: #fff;
+	color: #adadad;
+}
+
+.tokens {
+	background-color: #fff;
+    color: #1a5581;
+	border-radius: 8px;
+	text-align: center;
+	height: 160px;
+	width: 240px;
+	margin: 0 auto;
+	margin-top: 120px;
+	font-size: 1.5rem;
+	box-shadow:0 5px 10px rgba(0,0,0,0.5);
+	position: relative;
+	z-index: 10;
+}
+
+p.tokenText {
+	line-height: 150%;
+    color: #1a5581;
+	display: inline-block;
+	margin-top: 24px;
+}
+
+.token {
+	height: 60px;
+	width: 60px;
+	border-radius: 12px;
+	outline: none;
+	background-color: inherit;
+	border: 2px solid #fff;
+    color: #1a5581;
+	transition: all .15s ease-in-out;
+	font-size: 2.5rem;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.token:nth-of-type(1) {
+	position: absolute;
+	top: 80px;
+	left: 20%;
+}
+
+.token:nth-of-type(2) {
+	position: absolute;
+	top: 80px;
+	left: 55%;
+}
+
+.token:hover {
+	background-color: #fff;
+	color: #adadad;
+}
